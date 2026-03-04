@@ -67,11 +67,16 @@ int main(int argc, char** argv)
 
     thresh_callback(0, 0); // runs thresh_callback at least once
     
-    cout << "Control contours until they are minimized into as few as possible, close the windows and then type /'Y/' to start drawing";
-    waitKey('Y'); //waits for input so program doesnt exit immediately
+    cout << "Control contours until they are minimized into as few as possible then hit the Y key with window selected to start drawing";
 
+    while (true)
+    {
+        int key = cv::waitKey(30);
+
+        if (key == 'Y' || key == 'y')
+            break;
+    }
         //transform
-    
     transformed_Xpoints = fourier(untransformed_points, 'x'); //transforms x coordinate of all  points
     transformed_Ypoints = fourier(untransformed_points, 'y'); //transforms y coordinate of all points
    
@@ -151,7 +156,7 @@ for (const auto& p : untransformed_points) {
 
     imshow("Contours", drawing); //creates window and displays contours
     
-
+    
 }
 
 
