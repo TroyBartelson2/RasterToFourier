@@ -5,6 +5,8 @@ TROY BARTELSON 2026
 This program is a project for Computer Science 1: Starting Computing.
 The code is a combonation of own work along with source code from OpenCV, SFML, and The Coding Train's Youtube video "Coding Challenge #130.1: Drawing with Fourier Transform and Epicycles"
 
+The .zip contains compiled program and libraries, including test images
+
 INSTRUCTIONS:
 Place any JPEG into the folder and rename to "input.jpg"
 Open FourierDrawTest.exe
