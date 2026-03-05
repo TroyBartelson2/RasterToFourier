@@ -14,3 +14,6 @@ Enter downsampling rate n. This is calculated as 1/n total points sampled.
 If you want more than just the largest contour, enter "Y". Must be capitalized. 
 Move thresh sliders until number of colors(contours) are minimized to a reasonable amount.
 close both windows when ready to draw.
+
+# Demo
+[![Watch the video](https://img.youtube.com/vi/jwA9FcdP8u0/hqdefault.jpg)](https://www.youtube.com/embed/jwA9FcdP8u0)
