@@ -6,3 +6,4 @@
 /x64/
 .vs/
 .vscode/
+*.vcxproj.user
