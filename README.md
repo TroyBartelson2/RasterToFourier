@@ -10,8 +10,10 @@ I use this data of the points to create rotating circles, representing frequency
 The final tip of each is them used as the X and Y position of the drawhead.
 
 # Instructions:
+Dependencies: SFML 2.5.1 & OpenCV 4.11.0
+
 Place any JPEG into the folder and rename to "input.jpg"
-Open FourierDrawTest.exe
+When running program:
 Enter downsampling rate n. This is calculated as 1/n total points sampled.
 If you want more than just the largest contour, enter "Y" (Must be capitalized) 
 Move thresh sliders until number of colors(contours) are minimized to a reasonable amount.
